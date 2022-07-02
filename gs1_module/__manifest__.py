@@ -1,17 +1,16 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "gs1_module",
+    'name': "GS1",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        GS1 Customization""",
 
     'description': """
-        Long description of module's purpose
+        Different Views and Customizations for GS1 Egypt
     """,
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "Shura",
+    'website': "http://www.shuratech.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/15.0/odoo/addons/base/data/ir_module_category_data.xml
@@ -24,7 +23,7 @@
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
     ],
